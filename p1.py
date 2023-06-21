@@ -6,7 +6,6 @@ with open(path) as f:
 
 for l in txt:
     try:
-        
         result += int(l)
     except ValueError:
         pass
